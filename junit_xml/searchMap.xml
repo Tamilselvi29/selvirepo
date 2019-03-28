@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Search Functionality with Mapping" name="Search with Map Cruise Scenario" time="0">
+<skipped><![CDATA[Given user must be on homepage..............................................undefined
+When user must be on Crusies tab............................................undefined
+Then User enters source and destination.....................................undefined
+Then User enter No. of Travelers............................................undefined
+Then User click search button...............................................undefined
+Then Close the browser......................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

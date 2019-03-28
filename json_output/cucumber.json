@@ -1,0 +1,87 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#example for datatable with map"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Addition of two numbers with different data",
+        "description": "",
+        "id": "datatable-with-map-functionality;addition-of-two-numbers-with-different-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 132474227,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter number1 and number2",
+            "match": {
+              "location": "dataTableMapSD.i_enter_number_and_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstNo",
+                  "SecondNo"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "10",
+                  "20"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "50",
+                  "30"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104960,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add two numbers",
+            "match": {
+              "location": "dataTableMapSD.i_add_two_numbers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222720,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I print the result",
+            "match": {
+              "location": "dataTableMapSD.i_print_the_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "datatable with map functionality",
+    "description": "",
+    "id": "datatable-with-map-functionality",
+    "keyword": "Feature",
+    "uri": "E:/selvi/NewJava/CucumbetTestNew/src/main/java/Features/datatablewithmap.feature"
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.15603">
+<testcase classname="Multiplication" name="multiply two numbers" time="0.15603">
+<system-out><![CDATA[Given I have variable "10" and "5"..........................................passed
+When I multiplication "10" and "5"..........................................passed
+Then I display the Result...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

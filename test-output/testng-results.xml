@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1018" started-at="2019-03-27T16:32:22Z" finished-at="2019-03-27T16:32:23Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.SampleTest@1d371b2d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1018" started-at="2019-03-27T16:32:22Z" finished-at="2019-03-27T16:32:23Z">
+      <class name="Runner.SampleTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.SampleTest@1d371b2d]" name="setUpClass" is-config="true" duration-ms="339" started-at="2019-03-27T16:32:22Z" finished-at="2019-03-27T16:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.SampleTest@1d371b2d]" name="feature" duration-ms="222" started-at="2019-03-27T16:32:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-27T16:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Registration in MecuryFlight site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.SampleTest@1d371b2d]" name="tearDownClass" is-config="true" duration-ms="263" started-at="2019-03-27T16:32:22Z" finished-at="2019-03-27T16:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

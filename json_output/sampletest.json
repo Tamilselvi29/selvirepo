@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Navigating to mercury flight demo page"
+            ],
+            "result": {
+              "duration": 2714540678,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I\u0027ve a valid set of data and access to Registration Page",
+            "match": {
+              "location": "SampleTestStepDefinition.userValidityCheck()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 23,
+            "value": "#Using Map in DataTable"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 3539379003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTestStepDefinition.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Multiple User Registration using HASHMAP",
+        "description": "",
+        "id": "user-registration-in-mecuryflight-site;multiple-user-registration-using-hashmap",
+        "after": [
+          {
+            "result": {
+              "duration": 1455639661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTestStepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Navigating to Registration page"
+            ],
+            "result": {
+              "duration": 675630795,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Registration page Displayed",
+            "match": {
+              "location": "SampleTestStepDefinition.userOnRegistration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Enter user registration details for multiple set of data"
+            ],
+            "result": {
+              "duration": 7419300019,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter valid data on registration page and verify post-registration",
+            "match": {
+              "location": "SampleTestStepDefinition.userData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "phone",
+                  "email",
+                  "username",
+                  "password",
+                  "confirmpassword"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "Aditya",
+                  "Roy",
+                  "7501451187",
+                  "a@text.com",
+                  "aditya91",
+                  "test123",
+                  "test123"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "Rakesh",
+                  "Sinha",
+                  "7589866698",
+                  "b@rars.com",
+                  "rakesh90",
+                  "test123",
+                  "test123"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "Preety",
+                  "Sharma",
+                  "8598745805",
+                  "preety@t.com",
+                  "preety18",
+                  "test123",
+                  "test123"
+                ],
+                "line": 31
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50346,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Close the Browser",
+            "match": {
+              "location": "SampleTestStepDefinition.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Registration2"
+          }
+        ]
+      }
+    ],
+    "name": "User Registration in MecuryFlight site",
+    "description": "",
+    "id": "user-registration-in-mecuryflight-site",
+    "keyword": "Feature",
+    "uri": "E:/selvi/NewJava/CucumbetTestNew/src/main/java/Features/sampletest.feature"
+  }
+]

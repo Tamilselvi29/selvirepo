@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.132802">
+<testcase classname="datatable with map functionality" name="Addition of two numbers with different data" time="0.132802">
+<system-out><![CDATA[Given I enter number1 and number2...........................................passed
+When I add two numbers......................................................passed
+Then I print the result.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

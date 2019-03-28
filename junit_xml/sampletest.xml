@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.804541">
+<testcase classname="User Registration in MecuryFlight site" name="Multiple User Registration using HASHMAP" time="15.804541">
+<system-out><![CDATA[Given I've a valid set of data and access to Registration Page..............passed
+When Registration page Displayed............................................passed
+Then I enter valid data on registration page and verify post-registration...passed
+And Close the Browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
