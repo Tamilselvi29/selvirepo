@@ -1,1 +1,3 @@
 test git from branch to master
+
+check whether getting email notification after push code
