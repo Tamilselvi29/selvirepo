@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 
-
+//check how to revert from remote repo after commit and push
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "E:\\selvi\\NewJava\\CucumbetTestNew\\src\\main\\java\\Features\\datafromexcel.feature",
